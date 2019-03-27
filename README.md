@@ -10,3 +10,15 @@
 git annex initremote conp type=external externaltype=conp encryption=shared
 ```
 
+### Content distribution
+
+```bash
+git annex copy --to conp
+```
+
+### Show remote log 
+
+```bash
+show git-annex:remote.log
+```
+
