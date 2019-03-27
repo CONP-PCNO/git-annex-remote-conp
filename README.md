@@ -1,7 +1,8 @@
 # git-annex-remote-conp
-## Requisites
+## Installation
 
-- Git-annex version 7.20 or newer.
+- Requires git-annex version 7.20 or newer.
+- Requires `AnnexRemote` module. Install dependency with `pip install -r requirements.txt` 
 - Install `git-annex-remote-conp` somewhere in PATH and `chmod +x` the script.
 
 ### Setup
