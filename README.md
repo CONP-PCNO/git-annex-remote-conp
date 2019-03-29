@@ -8,7 +8,7 @@
 ### Setup
 
 ```bash
-git annex initremote conp type=external externaltype=conp encryption=shared
+git annex initremote conp type=external externaltype=conp encryption=shared autoenable=true
 ```
 
 ### Content distribution
