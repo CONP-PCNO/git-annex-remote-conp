@@ -27,7 +27,7 @@ content_key=$(git annex lookupkey $content_path)
 
 # "upload" content to CONP server, this could/should be done by another remote
 # like SSH-based push
-cp $content_path ../conp_sever/$content_key
+cp $content_path ../conp_server/$content_key
 
 # Tell the dataset that content for our fake content is available from
 # the CONP special remote
